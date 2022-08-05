@@ -1,6 +1,7 @@
 # Purpose: Function to partition subjects by outcome missingness pattern.
 # Updated: 2020-10-25.
 
+
 #' Partition Data by Outcome Missingness Pattern.
 #'
 #' @param t Target outcome vector.
@@ -16,9 +17,7 @@
 #'   \item `SMiss`, data for subjects with surrogate missingness.
 #'   \item `IPs`, inner products. 
 #' }
-#' 
 #' @export
-#' 
 #' @examples
 #' # Generate data.
 #' n <- 1e3
@@ -31,20 +30,19 @@
 #'   X = X, 
 #'   Z = Z
 #' )
-
 PartitionData <- function(t, s, X, Z = NULL) {
   
   # Ensure input structures are matrices.
   t <- matrix(t, ncol = 1)
   s <- matrix(s, ncol = 1)
-  if (!is.matrix(X)) {X <- matrix(X)}
+  if (!is.matrix(X)) {X <- as.matrix(X)}
   
   # If no surrogate model matrix is provided, 
   # adopt the target model matrix.
   if (is.null(Z)) {
     Z <- X
   } else {
-    if (!is.matrix(Z)) {Z <- matrix(Z)}
+    if (!is.matrix(Z)) {Z <- as.matrix(Z)}
   }
   
   # Output structure.

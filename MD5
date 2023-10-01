@@ -1,4 +1,4 @@
-baa07802ad0682e918e612313c53eab8 *DESCRIPTION
+0864c0e02dcaf0b976baf7d2b2e553b4 *DESCRIPTION
 05b3a0e8c06feec91134192a3542fce5 *NAMESPACE
 a810d8faf688c1c8fc4285dd50ba207a *R/Class.R
 ff2a642623ef46107ccdbdfba3e3ae6d *R/DataGen.R
@@ -13,14 +13,14 @@ a873e7a5ea5625c693bc4012b739a47b *R/LogLikelihood.R
 82032c20a41b30a51845444e036a1833 *R/Partition-Data.R
 302ce7af6e0fc493428188aa3601cd06 *R/RcppExports.R
 9bfed9ca5a66cec2ae7a32671e640836 *R/Score-EM.R
-cd7966b395e43675652aaab68c5e4c31 *R/SurrogateRegression-package.R
+f4449e7b6549dbf45d7526aa124aef5a *R/SurrogateRegression-package.R
 86b4c53c259f646c4af91c1404628b05 *R/Update-Covariance.R
 a8d270a9b5666cf994186e2c2a1b2965 *R/Update-Regression.R
 ac76ec7b2f45a2e220a869e4c259820f *R/Wald-EM.R
 9475b4220896a041db1da8dc6cf5bf30 *R/Wald-LS.R
-41438fc05836d98dc04ee24c2a7f2c69 *build/vignette.rds
+3e39acb97bfe5525c594b8d348cf7f7c *build/vignette.rds
 28d4e07a25e91f44769117d666f62ba6 *inst/doc/SurrogateRegression.Rnw
-70665095601d754b8fb98f9510cb7a84 *inst/doc/SurrogateRegression.pdf
+96191558623ceae70726feea3ef88d12 *inst/doc/SurrogateRegression.pdf
 db89ee7092ff606cd70d148b3c61e745 *man/CheckInit.Rd
 39f02e82b8b27060a46c645b7d1a4eec *man/CheckTestSpec.Rd
 48d35df0058efb1181bc06976f5beaaf *man/CovInfo.Rd
@@ -40,7 +40,7 @@ ec133cc41a1c509d31b00c8a4f509127 *man/RegTab.Rd
 c03c90bcd93d83679d7394499c0d7c42 *man/RegUpdate.Rd
 c902d90e70505c346a5b06320ca068df *man/SchurC.Rd
 ca7546b2626a3ca0e9c89c51b257db3d *man/ScoreBNEM.Rd
-da717b77a9c0f39911ace229ac8a4854 *man/SurrogateRegression.Rd
+6254c5ab54d5fd17f43ec53804117301 *man/SurrogateRegression.Rd
 aedeb58d02e99ce2c5d22e53ece5bc4f *man/TestBNR.Rd
 bcd9ff9bfcec43f418c513dcce537a4d *man/UpdateEM.Rd
 a093de5d2a40077de891409a80cdd087 *man/WaldBNEM.Rd

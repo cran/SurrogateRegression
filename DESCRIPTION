@@ -1,7 +1,7 @@
 Package: SurrogateRegression
 Title: Surrogate Outcome Regression Analysis
-Date: 2022-08-05
-Version: 0.6.0
+Date: 2023-10-01
+Version: 0.6.0.1
 Authors@R: 
     person(given = "Zachary",
            family = "McCaw",
@@ -15,13 +15,13 @@ License: GPL-3
 Encoding: UTF-8
 LinkingTo: Rcpp, RcppArmadillo
 Imports: methods, Rcpp, stats
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
 Suggests: testthat (>= 3.0.0), knitr, rmarkdown, withr
 VignetteBuilder: knitr
 Config/testthat/edition: 3
 NeedsCompilation: yes
-Packaged: 2022-08-05 20:13:27 UTC; zmccaw
+Packaged: 2023-10-01 15:30:30 UTC; zmccaw
 Author: Zachary McCaw [aut, cre] (<https://orcid.org/0000-0002-2006-9828>)
 Maintainer: Zachary McCaw <zmccaw@alumni.harvard.edu>
 Repository: CRAN
-Date/Publication: 2022-08-05 20:40:11 UTC
+Date/Publication: 2023-10-01 16:10:02 UTC
